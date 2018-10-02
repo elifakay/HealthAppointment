@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "913530480023",
+    "firebase_url": "https://proteksaglik-779b5.firebaseio.com",
+    "project_id": "proteksaglik-779b5",
+    "storage_bucket": "proteksaglik-779b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:913530480023:android:75087acb41266a9a",
+        "android_client_info": {
+          "package_name": "com.example.elif.healthappointment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "913530480023-nfepue7qehl400b1tghsk3fgkvihcjpj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.elif.healthappointment",
+            "certificate_hash": "e611c14993303339ba69d97199fc375b8443ce63"
+          }
+        },
+        {
+          "client_id": "913530480023-olapql075c3e6io3ts9989gh1avb2nlp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDO-0QnHeKGO1vXCVAnlb5tlLwOykuuinw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "913530480023-olapql075c3e6io3ts9989gh1avb2nlp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:913530480023:android:aea1c99278678071",
+        "android_client_info": {
+          "package_name": "com.proteksaglik.elif"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "913530480023-c18kcul7sq73pp5alle2qq71n5kbfcsn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.proteksaglik.elif",
+            "certificate_hash": "bbdc5a8bb3f874c178639cab3337a64e05c6dcab"
+          }
+        },
+        {
+          "client_id": "913530480023-olapql075c3e6io3ts9989gh1avb2nlp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDO-0QnHeKGO1vXCVAnlb5tlLwOykuuinw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "913530480023-olapql075c3e6io3ts9989gh1avb2nlp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

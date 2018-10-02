@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DoneAppointmentsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtDoneAppointmentDoctor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:padding="5dp"
+                android:text="DOKTOR AD SOYAD"
+                android:textAlignment="center"
+                android:textColor="#c74145"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtDoneAppointmentDepartment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:padding="2dp"
+                android:paddingStart="5dp"
+                android:text="Doktor Bölümü"
+                android:textAlignment="center"
+                android:textColor="#c74145"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtDoneAppointmentDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Tarih :"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtDoneAppointmentTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:paddingStart="5dp"
+                android:text="Saat :"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtDoneAppointmentAbout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:paddingStart="5dp"
+                android:text="Açıklama"
+                android:textColor="#006a69"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Şikayetinizi Giriniz :"
+                android:textColor="@android:color/black"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/edtDoneAppointmentComplaint"
+                android:layout_width="match_parent"
+                android:layout_height="320dp"
+                android:layout_marginTop="5dp"
+                android:ems="10"
+                android:hint="Şikayetinizi buraya giriniz"
+                android:inputType="textMultiLine" />
+
+            <Button
+                android:id="@+id/btnDoneAppointment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#c74145"
+                android:text="Gönder"
+                android:textColor="@android:color/white"
+                android:textSize="17sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
